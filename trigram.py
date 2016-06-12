@@ -16,7 +16,6 @@ f15 = open('corpus/DraftRecom-PDF.txt','r')
 f16 = open('corpus/Session2-PDF.txt','r')
 f17 = open('corpus/Session3-PDF.txt','r')
 f18 = open('corpus/Session4-PDF.txt','r')
-
 f19 = open('corpus/journal.pbio.0020001.txt','r')
 f20 = open('corpus/journal.pbio.0020010.txt','r')
 f21 = open('corpus/journal.pbio.0020012.txt','r')
