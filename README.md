@@ -1,2 +1,56 @@
 # Breaking-Columnar-Transposition-Cipher
 Reconstruct original text from a columnar transposition cipher without the key
+
+
+Suppose we have 10 snippets of English, each of
+length 50, arranged into 10 rows.  Then we corrupt
+the text by *randomly* permuting the columns.
+
+Sample original text:
+
+thepanelisalsoexpectedtorecommendthatthewhitehouse
+theiraniangovernmenthasmaintainedthatitknowsnothin
+bymatchingthelowestpriceandenhancingservicehewasde
+thisfallherneighborhoodinthenortheasternpartofthis
+forcollegebasketballfansthisisasgoodaweekasyourego
+butaccordingtobarbershopproprietorsthenumberoffema
+anintriguingnewstudysuggeststhatwhatreallydrawspeo
+alsoonthursdaythelatestwinnersofthelifesciencesand
+whatmembersofbothpartiesbemoanedmorethananythingwa
+onekeyhurdleforteslainproducingthenewsmallercarwil
+
+Sample column-permuted text:
+
+heeemirhcletshlohttwhsnpuesecetottipoenadeamtoaexd
+tnreaaahninsnootottnhiaihkvnnhimttwmtieadnrisegena
+raomnnaytihhgchawbsindcasveedreeipeeenngcethcltswi
+rrginhnhrllteantfttpaiashneshoeiehrbettshofodiroho
+eaerigtolelyeaarufakoglceesoifwsolsbshsdgoosnkbata
+nebtrdpueroribgffbhmsmcaeutaoseprrerprttoocioonbah
+aawituendgiriygswarlaernplnotseghydtssttwathgenusu
+eotsruilahtnridseaicennoasadnefwhteeenfltcostyslhs
+aeoaaebhabmtrnoniwtarwetgnfamthsoryhoedemhmnebspti
+mgreironluhrdleraowlniykwafluisreaeecdtehcenpolstn
+
+Notice how the first column in the
+original text ("ttbtfbaawo") is moved to the 18th column,
+and so forth.
+
+The job is to take a corrupted text and reconstruct
+the original English.  You can use the example above 
+for practice, but you should apply your algorithm
+to this problem:
+
+dtjmeoftumhbhstehresweseeoatearthkteoouietohfyetri
+ehsinaeinctnecfdbouunuetomltoimtonsrsihyeognrcfesi
+heldoehwaenwkleomnaegnonwefrimimynhenopngotiwymltt
+ikthgatysiowiitdeedrofeeyexonroaneitthtntsnhleofhc
+oslmnemjrtoebeftegernesioiweayksphluethuaraeahafth
+nfiehtuohugiandettheeoartttrbeybuiohvsatsdousnwona
+sltaeytgnnhaatgoehtkssulttroleulenaofiolgtwanlleli
+wmlptepmsttoehwchhieiavoehikrnwthaterecnltewacwele
+icnoovslantrebdweoifseundstntewanhioottaeatairetds
+cggoarrhsdewarhtipntiiretnowrddcahipwtgneoeboeldwa
+
+The data above is available at:
+http://www.isi.edu/natural-language/people/transpose.html
