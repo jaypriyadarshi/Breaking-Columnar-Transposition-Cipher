@@ -7,7 +7,6 @@ from tri import tri
 import operator
 
 mat = {}
-
 f = open('input.txt','r')
 f1 = open('prob_mat.py','w')
 f2= open('out7.txt','w')
