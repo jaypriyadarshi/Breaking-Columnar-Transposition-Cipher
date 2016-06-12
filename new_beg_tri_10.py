@@ -13,7 +13,6 @@ f = open('input.txt','r')
 f1 = open('prob_mat.py','w')
 f2= open('out7.txt','w')
 ciphertext  = f.readlines()
-
 """
 def cost(ans):
 	orginal = []
