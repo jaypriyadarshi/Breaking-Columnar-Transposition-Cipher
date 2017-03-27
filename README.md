@@ -1,6 +1,7 @@
 # Breaking-Columnar-Transposition-Cipher
 Reconstruct original text from a columnar transposition cipher without the key
 
+[Detailed Report here](report.pdf)
 
 Suppose we have 10 snippets of English, each of
 length 50, arranged into 10 rows.  Then we corrupt
